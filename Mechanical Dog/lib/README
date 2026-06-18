@@ -1,0 +1,9 @@
+本目录用于项目私有库。
+
+PlatformIO 会自动编译此目录下的库为静态库并链接到可执行文件。
+
+当前项目未使用私有库，所有代码集中在 src/ 目录。
+后续建议:
+- 将可复用的驱动抽象（如舵机控制、传感器封装）移至此处
+- 每个库独立目录: lib/your_lib/src/your_lib.h + your_lib.cpp
+- 参考: https://docs.platformio.org/en/latest/advanced/library-structure/ldf.html

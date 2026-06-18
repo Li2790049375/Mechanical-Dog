@@ -1,0 +1,9 @@
+本目录用于单元测试。
+
+当前项目暂无自动化测试用例。
+后续建议补充:
+- 运动学解算精度测试（连杆角度->舵机脉宽映射）
+- 步态周期计算测试（GLOBAL_STEP -> 足端轨迹）
+- 共享状态并发安全测试
+
+参考: https://docs.platformio.org/en/latest/advanced/unit-testing/index.html

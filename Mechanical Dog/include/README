@@ -1,0 +1,9 @@
+本目录用于项目头文件(.h)。
+
+当前项目头文件直接放在 src/ 目录中（InitConfig.h, ServoCtrl.h, PreferencesConfig.h, WebPage.h）。
+后续重构建议:
+- 将公共声明和宏定义移至此目录
+- src/ 目录仅保留实现文件(.cpp)
+- 头文件按功能模块组织（如 servo.h, sensors.h, display.h）
+
+注意: 当前 ServoCtrl.h 包含大量实现代码，建议拆分为声明(.h)和实现(.cpp)。
